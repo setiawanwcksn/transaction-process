@@ -3,6 +3,7 @@ Any rows marked as PENDING is pushed to a worker queue for background processing
 
 The whole system runs fully in memory, with no external dependencies.
 
+```
 [CSV Upload]
       │
       ▼
@@ -18,6 +19,7 @@ The whole system runs fully in memory, with no external dependencies.
                  │ (retry + backoff)
                  ▼
            Storage (resolved SUCCESS)
+```
 
 Components
 - API — receives upload requests and starts parsing in a goroutine

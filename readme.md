@@ -30,18 +30,18 @@ Components
 
 🎯 Key Behaviors
 Parsing
-SUCCESS → stored immediately, affects balance
-FAILED → logged as issue
-PENDING → sent to worker for retry
+- SUCCESS → stored immediately, affects balance
+- FAILED → logged as issue
+- PENDING → sent to worker for retry
 
 Worker
-Introduces delay with backoff on pending items
-Each item processed only once (idempotent tracking)
-Does not block API
+-Introduces delay with backoff on pending items
+- Each item processed only once (idempotent tracking)
+- Does not block API
 
 Storage
-Balance and issue tracking updated as items settle
-All data is isolated per upload ID
+- Balance and issue tracking updated as items settle
+- All data is isolated per upload ID
 
 Pros:
 - Easy to run locally — no database needed

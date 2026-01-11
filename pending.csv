@@ -1,0 +1,3 @@
+timestamp,counterparty,type,amount,status,description
+1736530000,Alice,CREDIT,50000,PENDING,Salary belum settle
+1736530100,Bob,DEBIT,20000,SUCCESS,Groceries

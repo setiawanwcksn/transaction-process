@@ -1,0 +1,4 @@
+timestamp,counterparty,type,amount,status,description
+1736530000,Alice,CREDIT,50000,SUCCESS,Salary
+1736530100,Bob,DEBIT,20000,SUCCESS,Groceries
+1736530200,Eve,DEBIT,5000,FAILED,Timeout error
